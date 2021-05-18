@@ -1,0 +1,220 @@
+html,body{
+  margin:0;
+  height:100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+
+}
+
+/* Style the header */
+.header {
+  padding: 100px;
+  text-align: center;
+  height: 300px;
+  background-image: url('https://techmeetups.com/wp-content/uploads/2017/10/image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-center{
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  padding: 10px 10px;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+div{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+img{
+  border-radius: 50%;
+  position: relative;
+  padding: inherit;
+}
+/*FOOTER*/
+footer{
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(0deg, rgba(34,195,104,1) 0%, rgba(45,77,253,1) 100%);
+}
+.container{
+  padding-top:10px;
+  min-height:100%;
+  min-width: 100%;
+  text-align:center;
+  color: white;
+
+}
+
+.headline{
+  text-align:center;
+  min-width: 100%;
+
+}
+.headline  h1{
+    font-size:35px;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+  }
+.headline p{
+  color: #fff;
+}
+
+.social-buttons{
+  display:inline-block;
+  background: rgba(256,256,256,0.5);
+  padding:20px;
+  padding-bottom: 5px;
+  border-radius:10px;
+  text-align:center;
+  margin:10px 10px;
+  box-shadow: 0px 0px 32px -7px #00199f;
+}
+
+/* Helper class to divide the icons */
+.social-margin {
+  margin-right: 15px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.social-icon {
+  margin-bottom: 15px;
+   box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 138px;
+  border: 5px solid;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 1px;
+  padding-top: 11px;
+  transition: all 0.5s;
+}
+.social-icon:hover {
+    transform: rotate(360deg)scale(1.3);
+  }
+  /* Twitter Button Styling */
+.twitter {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #55acee;
+    background-color: #55acee;
+    color: #ffffff;
+
+  }
+  .twitter:hover {
+    background-color: #ffffff;
+    color: #55acee;
+  }
+  /* Linkedin Button Styling */
+.linkedin {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 1px;
+    background-color: #0976b4;
+    color: #ffffff;
+    border-color: #0976b4;
+
+  }
+  .linkedin:hover {
+    background-color: #ffffff;
+    color: #0976b4;
+  }
+  /* Pinterest Button Styling */
+.pinterest {
+    font-size: 22px;
+    padding-top: 9px;
+    background-color:  #cb2027;
+    color: #ffffff;
+    border-color:  #cb2027;
+
+  }
+  .pinterest:hover {
+    background-color: #ffffff;
+    color:  #cb2027;
+  }
+  /* Dribbble Button Styling */
+.dribbble {
+    font-size: 22px;
+    padding-top: 9px;
+    background-color: #ea4c89;
+    color: #ffffff;
+    border-color: #ea4c89;
+
+  }
+  .dribbble :hover {
+    background-color: #ffffff;
+    color: #ea4c89;
+  }
+  /* Behance Button Styling */
+.behance {
+    font-size: 22px;
+    padding-top: 9px;
+    background-color: #1769ff;
+    color: #ffffff;
+    border-color: #1769ff;
+
+  }
+  .behance :hover {
+    background-color: #ffffff;
+    color: #1769ff;
+  }
+
+  /* Github Button Styling */
+ .github {
+    font-size: 22px;
+    padding-top: 9px;
+    background-color: #4183c4;
+    color: #ffffff;
+    border-color: #4183c4;
+
+  }
+  .github:hover {
+    background-color: #ffffff;
+    color: #4183c4;
+  }
+
+  /* Email Button Styling */
+   .envelope {
+     font-size: 22px;
+     padding-top: 9px;
+     padding-left: 0px;
+     background-color: #ff3a00;
+     color: #ffffff;
+     border-color: #ff3a00;
+
+   }
+   .envelope :hover {
+     background-color: #ffffff;
+     color: #ff3a00;
+   }
