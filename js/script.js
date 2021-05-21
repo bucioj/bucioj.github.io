@@ -1,3 +1,4 @@
+// Welcome to my website title
 var i = 0;
 var title_name = "Welcome to My Website";
 var speed = 100; //speed in ms
@@ -9,3 +10,4 @@ function typeWriter(){
         setTimeout(typeWriter, speed);
     }
 }
+// typewriter for my subtitle "I'm Jose Luis Bucio
