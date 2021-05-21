@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bucio</title>
+    <title>Bucio's Website</title>
     <meta name='description' content="Jose L Bucio Professional Site">
     <meta name='author' content="Jose Luis Bucio">
     <link rel='shortcut icon' href="favicon.io">
@@ -24,7 +24,7 @@
       <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset='50'>
+  <body onload="setTimeout(typeWriter, 500)" data-spy="scroll" data-target=".navbar" data-offset='50'>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#section1">About</a></li>
@@ -46,11 +46,11 @@
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- Header -->
     <div class="header">
-      <h1 class="text-center">Welcome to My Website</h1>
+      <h1 id ="typewriter" class="text-center"></h1>
       <p class="text-center">I'm Jose Luis Bucio</p>
     </div>
     <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -148,7 +148,10 @@
           <p>I love international food and beverages! I believe food brings people together and brings commonality. </p>
           <hr>
           <h3>Favorite Quotes</h3>
-          <p>"Dreams don't have deadlines" / "It's fine to celebrate success but it is more important to heed the lessons of failure - Bill Gates" </p>
+          <ul>
+            <li>"The way to get started is to quit talking and being doing" - Walt Disney </li>
+            <li>"It's fine to celebrate success but it is more important to heed the lessons of failure - Bill Gates" </li>
+          </ul>
         </div>
         <!--
         <div class="w3-container">
@@ -203,7 +206,7 @@
           <p>Check out my GitHub profile for web coding skills.</p>
           <hr>
           <h5>Design Projects </h5>
-          <p>Check out my portfolio and design skills from Dribbble and Behance.</p>
+          <p>Check out my design skills from Dribbble and Behance.</p>
       </div>
 
     </div>
@@ -221,7 +224,7 @@
     <div id="section41" class="container-fluid" style="padding-top:50px;padding-bottom:50px">
 
     </div>
-
+    <script src="js/script.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
@@ -279,7 +282,7 @@
       </a>
 
     </div>
-      <p class="medium">Last Updated May 17, 2021. Published by <a href="https://github.com" target="_blank">GitHub</a></p>
+      <p class="medium">Last Updated May 20, 2021. Published by <a href="https://github.com" target="_blank">GitHub.</a></p>
     </div>
 
   </footer>
